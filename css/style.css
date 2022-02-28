@@ -3,6 +3,7 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
+/* header */
 header{
     background-color: #6495ED;
     background-image: url("C:\Users\coron\Desktop\Boolean\The Booleaner\html-css-booleaner\img\pattern.png");
@@ -12,17 +13,50 @@ h2{
     color: white;
     display: inline;
 }
+/* main */
 h1{
     font-size: 3em;
     margin-bottom: 1px;
+}
+p.trasparenza span{
+    color: #6495ED;
 }
 Section.Titolo p{
     margin-top: 1px;
     margin-bottom: 1px;
 }
+Section.immages p{
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-size: 80%;
+}
+.yellow{
+    background-color: yellow;
+}
+ul{
+    padding: 20px;
+}
+/* tabella */
+table{
+    border-spacing: 0px;
+}
+.sin{
+    width: 33%;
+}
+.centro{
+    width: 33%;
+}
 .titolo_tabella{
     background-color: #00BFFF;
+    color: white;
 }
 .tab_celeste{
     background-color: #00FFFF;
+}
+.trasparenza{
+    opacity: 0.7;
+}
+/* footer */
+footer{
+    margin-top: 50px;
 }
