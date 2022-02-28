@@ -20,3 +20,9 @@ Section.Titolo p{
     margin-top: 1px;
     margin-bottom: 1px;
 }
+.titolo_tabella{
+    background-color: #00BFFF;
+}
+.tab_celeste{
+    background-color: #00FFFF;
+}
