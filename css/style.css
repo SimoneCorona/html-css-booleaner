@@ -6,12 +6,15 @@ body{
 /* header */
 header{
     background-color: #6495ED;
-    background-image: url("pattern.png");
+    background-image: url("../img/pattern.png");
     height: 150px;
+    font-size: 1.5em;
 }
 h2{
     color: white;
     display: inline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 /* main */
 .container{
@@ -28,6 +31,9 @@ p.trasparenza span{
 Section.Titolo p{
     margin-top: 1px;
     margin-bottom: 1px;
+}
+.immages{
+    margin-top: 20px;
 }
 Section.immages p{
     margin-top: 1px;
@@ -63,10 +69,27 @@ table{
 /* footer */
 footer{
     margin-top: 50px;
+    margin-bottom: 50px;
+}
+.container-footer{
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .img-footer1{
-    background-image: url("monitor.jpg");
+    width: 200px;
+    height: 200px;
+    background-image: url("../img/monitor.jpg");
+    color: white;
+    font-size: 1.2em;
 }
 .img-footer2{
-    background-image: url("graph.jpg");
+    width: 200px;
+    height: 200px;
+    background-image: url("../img/graph.jpg");
+    color: white;
+    font-size: 1.2em;
+}
+.container-footer p{
+    color: white;
+    text-align: center;
 }
